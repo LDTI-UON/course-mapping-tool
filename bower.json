@@ -1,0 +1,52 @@
+{
+  "name": "course-mapping-tool",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "modernizr": "~2.8.3",
+    "underscore": "~1.8.3",
+    "backbone": "~1.2.3",
+    "jquery": "~2.1.4",
+    "chosen": "~1.4.2"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js",
+        "dist/fonts/*"
+      ]
+    },
+    "chosen": {
+        "main": [
+            "chosen.min.css",
+            "chosen.jquery.min.js",
+            "*.png"
+        ]
+    }
+  },
+  "devDependencies": {
+    "chai": "~3.4.1",
+    "mocha": "~2.3.3"
+  },
+  "authors": [
+    "ps158 <ps158@newcastle.edu.au>"
+  ],
+  "description": "Aide for academics to map their courses at UoN",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "course",
+    "mapper"
+  ],
+  "license": "MIT",
+  "homepage": "https://bold.newcastle.edu.au/course_mapping_tool",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
