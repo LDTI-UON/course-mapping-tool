@@ -6,4 +6,4 @@ bower_components
 .editorconfig
 .gitattributes
 .yo-rc.json
-
+.DS_Store
